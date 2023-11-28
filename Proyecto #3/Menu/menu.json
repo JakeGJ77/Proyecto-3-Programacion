@@ -1,135 +1,414 @@
 {
-  "platos_fuertes": [
-    {
-      "nombre": "Pechuga de Pollo a la Parrilla con vegatales",
-      "ingredientes": ["Pechuga de pollo", "Especias", "Limón", "Aceite de oliva"],
-      "calorias": 300,
-      "precio": 12.99,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Pechuga_de_pollo.jpg",
-      "opciones_reemplazo": {
-        "Pechuga de pollo": ["Filete de pavo", "Filete de pescado"]
-      }
-    },
-    {
-      "nombre": "Salmón al Horno con Verduras",
-      "ingredientes": ["Salmón", "Brócoli", "Zanahorias", "Aceite de oliva", "Especias"],
-      "calorias": 350,
-      "precio": 18.50,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Salmon_al_horno.jpg",
-      "opciones_reemplazo": {
-        "Salmón": ["Trucha", "Pez espada"],
-        "Brócoli": ["Coliflor", "Espárragos"]
-      }
-    },
-    {
-      "nombre": "Lomo de Cerdo con Puré de Batatas",
-      "ingredientes": ["Lomo de cerdo", "Batatas", "Mantequilla", "Sal", "Pimienta"],
-      "calorias": 400,
-      "precio": 14.75,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Lomo_cerdo.jpg",
-      "opciones_reemplazo": {
-        "Lomo de cerdo": ["Solomillo de ternera", "Filete de cordero"],
-        "Batatas": ["Puré de calabaza", "Puré de zanahoria"]
-      }
-    },
-    {
-      "nombre": "Ensalada Mediterránea",
-      "ingredientes": ["Lechuga", "Tomate", "Pepino", "Aceitunas", "Queso feta", "Vinagreta"],
-      "calorias": 250,
-      "precio": 9.99,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Ensalada_mediteranea.jpg",
-      "opciones_reemplazo": {
-        "Queso feta": ["Queso panela", "Queso de cabra"],
-        "Aceitunas": ["Almendras", "Nueces"]
-      }
-    },
-    {
-      "nombre": "Tofu con Vegetales Salteados",
-      "ingredientes": ["Tofu", "Vegetales mixtos", "Salsa de soja", "Jengibre", "Arroz integral"],
-      "calorias": 280,
-      "precio": 11.50,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Tofu.jpg",
-      "opciones_reemplazo": {
-        "Tofu": ["Tempeh", "Seitan"],
-        "Salsa de soja": ["Salsa teriyaki", "Salsa de chile dulce"],
-        "Arroz integral": ["Quinoa", "Couscous"]
-      }
-    }
-  ],
-  "postres": [
-    {
-      "nombre": "Tarta de Manzana",
-      "ingredientes": ["Manzanas", "Masa de hojaldre", "Canela", "Azúcar", "Helado de vainilla"],
-      "calorias": 200,
-      "precio": 7.50,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Tarta_manzana.jpg"
-    },
-    {
-      "nombre": "Mousse de Chocolate",
-      "ingredientes": ["Chocolate negro", "Nata", "Azúcar", "Huevos"],
-
-
-      "calorias": 300,
-      "precio": 9.99,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Mouse_chocolate.jpg"
-    },
-    {
-      "nombre": "Flan de Caramelo",
-      "ingredientes": ["Leche", "Huevos", "Azúcar", "Esencia de vainilla", "Caramelo líquido"],
-      "calorias": 250,
-      "precio": 6.75,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Flan.jpg"
-    },
-    {
-      "nombre": "Helado de Frutos del Bosque",
-      "ingredientes": ["Fresas", "Moras", "Arándanos", "Azúcar", "Crema"],
-      "calorias": 180,
-      "precio": 5.99,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Helado_fruto.jpg"
-    },
-    {
-      "nombre": "Tiramisú",
-      "ingredientes": ["Café", "Queso mascarpone", "Bizcochos", "Cacao en polvo", "Licor"],
-      "calorias": 280,
-      "precio": 8.50,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Tiramisu.jpg"
-    }
-  ],
-  "bebidas": [
-    {
-      "nombre": "Batido de Frutas",
-      "ingredientes": ["Plátano", "Fresas", "Leche", "Miel", "Yogur"],
-      "calorias": 150,
-      "precio": 4.50,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\batidos-frutas.jpg"
-    },
-    {
-      "nombre": "Zumo de Naranja Natural",
-      "ingredientes": ["Naranjas", "Hielo"],
-      "calorias": 120,
-      "precio": 3.99,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Jugo_Naranja.jpg"
-    },
-    {
-      "nombre": "Agua de Coco",
-      "ingredientes": ["Agua de coco"],
-      "calorias": 50,
-      "precio": 2.99,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Agua_pipa.jpg"
-    },
-    {
-      "nombre": "Café Espresso",
-      "ingredientes": ["Café espresso"],
-      "calorias": 5,
-      "precio": 2.50,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Cafe.jpg"
-    },
-    {
-      "nombre": "Smoothie de Espinacas y Piña",
-      "ingredientes": ["Espinacas", "Piña", "Yogur", "Miel"],
-      "calorias": 120,
-      "precio": 4.99,
-      "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Batido-espinacas.jpg"
-    }
-  ]
+    "menu": [
+        {
+            "categoria": "platos_fuertes",
+            "nombre": "Pechuga de Pollo a la Parrilla con vegetales",
+            "ingredientes": [
+                "Pechuga de pollo",
+                "Especias",
+                "Lim\u00c3\u00b3n",
+                "Aceite de oliva"
+            ],
+            "calorias": 300,
+            "precio": 12.99,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Pechuga_de_pollo.jpg",
+            "opciones_reemplazo": {
+                "Pechuga de pollo": [
+                    "Filete de pavo",
+                    "Filete de pescado"
+                ]
+            }
+        },
+        {
+            "categoria": "platos_fuertes",
+            "nombre": "Salm\u00c3\u00b3n al Horno con Verduras",
+            "ingredientes": [
+                "Salm\u00c3\u00b3n",
+                "Br\u00c3\u00b3coli",
+                "Zanahorias",
+                "Aceite de oliva",
+                "Especias"
+            ],
+            "calorias": 350,
+            "precio": 18.5,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Salmon_al_horno.jpg",
+            "opciones_reemplazo": {
+                "Salm\u00c3\u00b3n": [
+                    "Trucha",
+                    "Pez espada"
+                ],
+                "Br\u00c3\u00b3coli": [
+                    "Coliflor",
+                    "Esp\u00c3\u00a1rragos"
+                ]
+            }
+        },
+        {
+            "categoria": "platos_fuertes",
+            "nombre": "Lomo de Cerdo con Pur\u00c3\u00a9 de Batatas",
+            "ingredientes": [
+                "Lomo de cerdo",
+                "Batatas",
+                "Mantequilla",
+                "Sal",
+                "Pimienta"
+            ],
+            "calorias": 400,
+            "precio": 14.75,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Lomo_cerdo.jpg",
+            "opciones_reemplazo": {
+                "Lomo de cerdo": [
+                    "Solomillo de ternera",
+                    "Filete de cordero"
+                ],
+                "Batatas": [
+                    "Pur\u00c3\u00a9 de calabaza",
+                    "Pur\u00c3\u00a9 de zanahoria"
+                ]
+            }
+        },
+        {
+            "categoria": "platos_fuertes",
+            "nombre": "Ensalada Mediterr\u00c3\u00a1nea",
+            "ingredientes": [
+                "Lechuga",
+                "Tomate",
+                "Pepino",
+                "Aceitunas",
+                "Queso feta",
+                "Vinagreta"
+            ],
+            "calorias": 250,
+            "precio": 9.99,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Ensalada_mediteranea.jpg",
+            "opciones_reemplazo": {
+                "Queso feta": [
+                    "Queso panela",
+                    "Queso de cabra"
+                ],
+                "Aceitunas": [
+                    "Almendras",
+                    "Nueces"
+                ]
+            }
+        },
+        {
+            "categoria": "platos_fuertes",
+            "nombre": "Tofu con Vegetales Salteados",
+            "ingredientes": [
+                "Tofu",
+                "Vegetales mixtos",
+                "Salsa de soja",
+                "Jengibre",
+                "Arroz integral"
+            ],
+            "calorias": 280,
+            "precio": 11.5,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Tofu.jpg",
+            "opciones_reemplazo": {
+                "Tofu": [
+                    "Tempeh",
+                    "Seitan"
+                ],
+                "Salsa de soja": [
+                    "Salsa teriyaki",
+                    "Salsa de chile dulce"
+                ],
+                "Arroz integral": [
+                    "Quinoa",
+                    "Couscous"
+                ]
+            }
+        },
+        {
+            "categoria": "postres",
+            "nombre": "Tarta de Manzana",
+            "ingredientes": [
+                "Manzanas",
+                "Masa de hojaldre",
+                "Canela",
+                "Az\u00c3\u00bacar",
+                "Helado de vainilla"
+            ],
+            "calorias": 200,
+            "precio": 7.5,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Tarta_manzana.jpg"
+        },
+        {
+            "categoria": "postres",
+            "nombre": "Mousse de Chocolate",
+            "ingredientes": [
+                "Chocolate negro",
+                "Nata",
+                "Az\u00c3\u00bacar",
+                "Huevos"
+            ],
+            "calorias": 300,
+            "precio": 9.99,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Mouse_chocolate.jpg"
+        },
+        {
+            "categoria": "postres",
+            "nombre": "Flan de Caramelo",
+            "ingredientes": [
+                "Leche",
+                "Huevos",
+                "Az\u00c3\u00bacar",
+                "Esencia de vainilla",
+                "Caramelo l\u00c3\u00adquido"
+            ],
+            "calorias": 250,
+            "precio": 6.75,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Flan.jpg"
+        },
+        {
+            "categoria": "postres",
+            "nombre": "Helado de Frutos del Bosque",
+            "ingredientes": [
+                "Fresas",
+                "Moras",
+                "Ar\u00c3\u00a1ndanos",
+                "Az\u00c3\u00bacar",
+                "Crema"
+            ],
+            "calorias": 180,
+            "precio": 5.99,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Helado_fruto.jpg"
+        },
+        {
+            "categoria": "postres",
+            "nombre": "Tiramis\u00c3\u00ba",
+            "ingredientes": [
+                "Caf\u00c3\u00a9",
+                "Queso mascarpone",
+                "Bizcochos",
+                "Cacao en polvo",
+                "Licor"
+            ],
+            "calorias": 280,
+            "precio": 8.5,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Tiramisu.jpg"
+        },
+        {
+            "categoria": "bebidas",
+            "nombre": "Batido de Frutas",
+            "ingredientes": [
+                "Pl\u00c3\u00a1tano",
+                "Fresas",
+                "Leche",
+                "Miel",
+                "Yogur"
+            ],
+            "calorias": 150,
+            "precio": 4.5,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\batidos-frutas.jpg"
+        },
+        {
+            "categoria": "bebidas",
+            "nombre": "Zumo de Naranja Natural",
+            "ingredientes": [
+                "Naranjas",
+                "Hielo"
+            ],
+            "calorias": 120,
+            "precio": 3.99,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Jugo_Naranja.jpg"
+        },
+        {
+            "categoria": "bebidas",
+            "nombre": "Agua de Coco",
+            "ingredientes": [
+                "Agua de coco"
+            ],
+            "calorias": 50,
+            "precio": 2.99,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Agua_pipa.jpg"
+        },
+        {
+            "categoria": "bebidas",
+            "nombre": "Caf\u00c3\u00a9 Espresso",
+            "ingredientes": [
+                "Caf\u00c3\u00a9 espresso"
+            ],
+            "calorias": 5,
+            "precio": 2.5,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Cafe.jpg"
+        },
+        {
+            "categoria": "bebidas",
+            "nombre": "Smoothie de Espinacas y Pi\u00c3\u00b1a",
+            "ingredientes": [
+                "Espinacas",
+                "Pi\u00c3\u00b1a",
+                "Yogur",
+                "Miel"
+            ],
+            "calorias": 120,
+            "precio": 4.99,
+            "imagen": "C:\\Users\\Jake\\Desktop\\Proyecto #3\\Menu\\img\\Batido-espinacas.jpg"
+        },
+        {
+            "categoria": "nueva_categoria",
+            "nombre": "Nuevo Producto",
+            "ingredientes": [
+                "Ingrediente1",
+                "Ingrediente2"
+            ],
+            "calorias": 200,
+            "precio": 9.99,
+            "imagen": "C:\\ruta\\a\\nueva\\imagen.jpg",
+            "opciones_reemplazo": {}
+        },
+        {
+            "categoria": "nueva_categoria",
+            "nombre": "Nuevo Producto",
+            "ingredientes": [
+                "Ingrediente1",
+                "Ingrediente2"
+            ],
+            "calorias": 200,
+            "precio": 9.99,
+            "imagen": "C:\\ruta\\a\\nueva\\imagen.jpg",
+            "opciones_reemplazo": {}
+        },
+        {
+            "categoria": "nueva_categoria",
+            "nombre": "Nuevo Producto",
+            "ingredientes": [
+                "Ingrediente1",
+                "Ingrediente2"
+            ],
+            "calorias": 200,
+            "precio": 9.99,
+            "imagen": "C:\\ruta\\a\\nueva\\imagen.jpg",
+            "opciones_reemplazo": {}
+        },
+        {
+            "categoria": "nueva_categoria",
+            "nombre": "Nuevo Producto",
+            "ingredientes": [
+                "Ingrediente1",
+                "Ingrediente2"
+            ],
+            "calorias": 200,
+            "precio": 9.99,
+            "imagen": "C:\\ruta\\a\\nueva\\imagen.jpg",
+            "opciones_reemplazo": {}
+        },
+        {
+            "categoria": "nueva_categoria",
+            "nombre": "Nuevo Producto",
+            "ingredientes": [
+                "Ingrediente1",
+                "Ingrediente2"
+            ],
+            "calorias": 200,
+            "precio": 9.99,
+            "imagen": "C:\\ruta\\a\\nueva\\imagen.jpg",
+            "opciones_reemplazo": {}
+        },
+        {
+            "categoria": "nueva_categoria",
+            "nombre": "Nuevo Producto",
+            "ingredientes": [
+                "Ingrediente1",
+                "Ingrediente2"
+            ],
+            "calorias": 200,
+            "precio": 9.99,
+            "imagen": "C:\\ruta\\a\\nueva\\imagen.jpg",
+            "opciones_reemplazo": {}
+        },
+        {
+            "categoria": "nueva_categoria",
+            "nombre": "Nuevo Producto",
+            "ingredientes": [
+                "Ingrediente1",
+                "Ingrediente2"
+            ],
+            "calorias": 200,
+            "precio": 9.99,
+            "imagen": "C:\\ruta\\a\\nueva\\imagen.jpg",
+            "opciones_reemplazo": {}
+        },
+        {
+            "categoria": "nueva_categoria",
+            "nombre": "Nuevo Producto",
+            "ingredientes": [
+                "Ingrediente1",
+                "Ingrediente2"
+            ],
+            "calorias": 200,
+            "precio": 9.99,
+            "imagen": "C:\\ruta\\a\\nueva\\imagen.jpg",
+            "opciones_reemplazo": {}
+        },
+        {
+            "categoria": "nueva_categoria",
+            "nombre": "Nuevo Producto",
+            "ingredientes": [
+                "Ingrediente1",
+                "Ingrediente2"
+            ],
+            "calorias": 200,
+            "precio": 9.99,
+            "imagen": "C:\\ruta\\a\\nueva\\imagen.jpg",
+            "opciones_reemplazo": {}
+        },
+        {
+            "categoria": "nueva_categoria",
+            "nombre": "Nuevo Producto",
+            "ingredientes": [
+                "Ingrediente1",
+                "Ingrediente2"
+            ],
+            "calorias": 200,
+            "precio": 9.99,
+            "imagen": "C:\\ruta\\a\\nueva\\imagen.jpg",
+            "opciones_reemplazo": {}
+        },
+        {
+            "categoria": "nueva_categoria",
+            "nombre": "Nuevo Producto",
+            "ingredientes": [
+                "Ingrediente1",
+                "Ingrediente2"
+            ],
+            "calorias": 200,
+            "precio": 9.99,
+            "imagen": "C:\\ruta\\a\\nueva\\imagen.jpg",
+            "opciones_reemplazo": {}
+        },
+        {
+            "categoria": "nueva_categoria",
+            "nombre": "pera",
+            "ingredientes": [
+                "ingrediente1",
+                "ingrediente2"
+            ],
+            "calorias": 0,
+            "precio": 0.0,
+            "imagen": "ruta/imagen.jpg",
+            "opciones_reemplazo": {}
+        },
+        {
+            "categoria": "platos_fuertes",
+            "nombre": "JAKEW",
+            "ingredientes": [
+                "sal"
+            ],
+            "calorias": 112,
+            "precio": 12.0
+        },
+        {
+            "categoria": "platos_fuertes",
+            "nombre": "dadad",
+            "ingredientes": [
+                "dad",
+                "pera"
+            ],
+            "calorias": 1122,
+            "precio": 121.0
+        }
+    ]
 }
